@@ -4,4 +4,5 @@ def fact(x):
     else:
         return x * fact(x - 1)
 
-print(fact(5))
+number = int(input("Which number do you want to take factorial? "))
+print(fact(number))

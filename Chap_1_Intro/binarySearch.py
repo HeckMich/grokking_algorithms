@@ -13,7 +13,16 @@ def binary_search(list, item):
             low = mid + 1
     return None
 
-my_list = [1, 3, 5, 7, 9]
 
-print(binary_search(my_list, 3))
-print(binary_search(my_list, -1))
+
+def search_number():
+    number = input("Which number do you want to search for? ")
+    return int (number)
+
+my_list = [12, 34, 56, 78, 90, 112, 134, 156, 178, 200, 222, 244, 266,
+           288, 310, 332, 354, 376, 398, 420, 442, 464, 486, 508, 530,
+           552, 574, 596, 618, 640, 662, 684, 706, 728, 750, 772, 794,
+           816, 838, 860, 882, 904, 926, 948, 970, 992, 1000, 1000,
+           1000, 1000]
+
+print(binary_search(my_list, search_number()))

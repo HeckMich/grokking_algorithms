@@ -10,4 +10,5 @@ def greet2(name):
 def bye():
     print("Bye")
 
-greet("Michael")
+name = input("Who do you want to greet? ")
+greet(name)
